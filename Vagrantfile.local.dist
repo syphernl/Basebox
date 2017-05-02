@@ -7,6 +7,10 @@ $vm_box      = 'ubuntu/trusty64'
 # Optional aliases to set (requires vagrant-hostsupdater plugin)
 # $vm_aliases  = ['alias1.nl', 'alias2.com']
 
+# Uncomment and change below in case your Vagrantbox uses a different
+# default-user (defaults to 'vagrant')
+# $vagrant_user = 'ubuntu'
+
 # Optional: Override synced_folders that are defined
 # (default: {'.' => '/vagrant'})
 # $vm_mounts = {
